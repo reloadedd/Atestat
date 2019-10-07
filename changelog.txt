@@ -1,0 +1,10 @@
+VERSIUNEA 1.1
+
+- Modificat mesajul de ajutor astfel incat sa incapa pe un ecran HD, consola cu font Courier New, dimensiune 24
+- Adaugat posibilitatea de a introduce de mai multe ori numele unui fisier, in cazul in care prima
+data a fost introdus gresit => functia open() al obiectului de tip ifstream.
+- Crearea functiei back() care va solicita utilizatorul referitor la dorinta sa de a se intoarce
+la meniul principal sau a iesi din program. Functia re-executa programul principal.
+- Crearea functiei verificare_fisier() care verifica daca un fisier specificat de la tastatura
+exista pe disc si poate fi deschis pentru citirea datelor din el.
+- Crearea functiei clear_screen() care "curata" consola de textul care era inainte afisat.
